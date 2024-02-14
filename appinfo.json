@@ -1,0 +1,11 @@
+{
+  "id": "mrcu.game.hexgl",
+  "version": "1.0.0",
+  "vendor": "LGE",
+  "type": "web",
+  "main": "index.html",
+  "title": "MRCU Racing Game",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png",
+  "disableBackHistoryAPI": true
+}
