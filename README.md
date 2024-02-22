@@ -61,8 +61,21 @@ and Steering Wheel mode, which uses the MRCU parallel to the screen and rotates 
 Clone the repository and cd into the cloned directory.
 
 ```
-git clone http://mod.lge.com/hub/advprod-swdev-app/com.game.app.hexgl.git (TODO - git open source link)
+git clone https://github.com/webOS-TV-app-samples/HexGL.git
 cd com.game.app.hexgl
+```
+
+### Sample Code modified by LGE
+
+The **'service'** and **'controller'** folders under **'bkcore > hexgl'** contain sample codes.<br/>
+
+Like following example, marked as **'Modified by LGE'**, is revision code for sample code by the LGE.<br/>
+
+```
+/******************** Modified by LGE ***********************/
+// Create MrcuService instance
+this.mrcuService = new bkcore.hexgl.MrcuService();
+/************************************************************/
 ```
 
 ### App Package & Install
@@ -77,6 +90,5 @@ https://webostv.developer.lge.com/develop/tools/cli-dev-guide#ares-install</br>
 
 If you want to see details about the MRCU Service API, please refer to this url. <br />
 
-developer site Link --- TODO
-
-
+Magic-Remote : https://webostv.developer.lge.com/develop/references/magic-remote<br/>
+Ble-Gatt : https://webostv.developer.lge.com/develop/references/luna-service-introduction **(TBU)**<br/>
