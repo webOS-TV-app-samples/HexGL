@@ -86,9 +86,13 @@ https://webostv.developer.lge.com/develop/tools/cli-dev-guide#ares-package</br>
 https://webostv.developer.lge.com/develop/tools/cli-dev-guide#ares-setup-device</br>
 https://webostv.developer.lge.com/develop/tools/cli-dev-guide#ares-install</br>
 
+When creating a package file (.ipk), use the '--no-minify' option of the ares-package command to omit the minifying task.
+
+https://webostv.developer.lge.com/develop/tools/cli-dev-guide#package-the-web-app-without-minifying
+
 ## Luna Servcie API - MRCU Service
 
 If you want to see details about the MRCU Service API, please refer to this url. <br />
 
 Magic-Remote : https://webostv.developer.lge.com/develop/references/magic-remote<br/>
-Ble-Gatt : https://webostv.developer.lge.com/develop/references/luna-service-introduction **(TBU)**<br/>
+Ble-Gatt : https://webostv.developer.lge.com/develop/references/ble-gatt<br/>
